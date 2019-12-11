@@ -7,9 +7,9 @@ def oxford_comma(array)
     return array.join(" and ")
   else
     string_end = ", and #{array.pop}"
-binding.pry    
+# binding.pry    
     string = array.join(", ")
-binding.pry
+# binding.pry
     return string + string_end
   end
 end
